@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Run with local SSL
+```
+thin start --ssl --ssl-key-file config/local-certs/server.key --ssl-cert-file config/local-certs/server.crt
+```
